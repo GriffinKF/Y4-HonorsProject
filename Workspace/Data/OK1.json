@@ -1,1 +1,29 @@
-{"data":[{"created_at":"2022-02-12T18:05:28.000Z","id":"1492560502752432136","text":"Soo Oklahoma is over here tryna make a fucking data base that tracks women who are *considering* getting an abortion. \nBut vaccine mandates is pushing it too far? K. Make it make sense. I hate this dystopian hellscape that is 2022 in America."},{"created_at":"2022-02-10T22:40:48.000Z","id":"1491905014411182080","text":"georgia now trying to get rid of all mandates for vaccine, like measles and smallpox........oklahoma tracking women wanting/needing abortions...well you love to see the fall of an empire in real time"},{"created_at":"2022-02-09T02:12:06.000Z","id":"1491233416779825152","text":"Lots of data released tomorrow.  Will be releasing the following Reports:\n\nDaily COVID Deaths Report\nOklahoma COVID Report\nTulsa County COVID Report\nTULSA COVID Report\nBroken Arrow COVID Report\nOklahoma NUMBERS Map\nCOVID Hospitalizations by Vaccination Status\nand various charts"},{"created_at":"2022-02-07T17:56:53.000Z","id":"1490746401327915010","text":"Oklahoma needs to start checking vaccination cards !!!"}],"meta":{"newest_id":"1492560502752432136","oldest_id":"1490746401327915010","result_count":4}}
+{
+    "data": [
+        {
+            "created_at": "2022-02-12T18:05:28.000Z",
+            "id": "1492560502752432136",
+            "text": "Soo Oklahoma is over here tryna make a fucking data base that tracks women who are *considering* getting an abortion. \nBut vaccine mandates is pushing it too far? K. Make it make sense. I hate this dystopian hellscape that is 2022 in America."
+        },
+        {
+            "created_at": "2022-02-10T22:40:48.000Z",
+            "id": "1491905014411182080",
+            "text": "georgia now trying to get rid of all mandates for vaccine, like measles and smallpox........oklahoma tracking women wanting/needing abortions...well you love to see the fall of an empire in real time"
+        },
+        {
+            "created_at": "2022-02-09T02:12:06.000Z",
+            "id": "1491233416779825152",
+            "text": "Lots of data released tomorrow.  Will be releasing the following Reports:\n\nDaily COVID Deaths Report\nOklahoma COVID Report\nTulsa County COVID Report\nTULSA COVID Report\nBroken Arrow COVID Report\nOklahoma NUMBERS Map\nCOVID Hospitalizations by Vaccination Status\nand various charts"
+        },
+        {
+            "created_at": "2022-02-07T17:56:53.000Z",
+            "id": "1490746401327915010",
+            "text": "Oklahoma needs to start checking vaccination cards !!!"
+        }
+    ],
+    "meta": {
+        "newest_id": "1492560502752432136",
+        "oldest_id": "1490746401327915010",
+        "result_count": 4
+    }
+}

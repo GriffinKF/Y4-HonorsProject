@@ -1,1 +1,34 @@
-{"data":[{"created_at":"2022-02-11T21:17:17.000Z","id":"1492246384283512833","text":"Signs coming into Colorado from Wyo:\n\nStop Hate Crimes, FBI\nGet your Vaccination\nJesus is Alive"},{"created_at":"2022-02-11T17:12:49.000Z","id":"1492184861364428806","text":"You know what? @POTUS should just lift the vaccine mandates and states should lift mask mandates. I agree with the Colorado governor. At this point if you’re unvaccinated and get sick it’s your own damn fault."},{"created_at":"2022-02-09T23:53:50.000Z","id":"1491561004949553158","text":"VAERS report 1212517:\n44yo Male, Colorado\nMuscle pain and fatigue immediately after Pfizer  vaccination. Died 2 days later.\n\nWhy was this report removed from VAERS after 04-30-2021?"},{"created_at":"2022-02-09T01:03:21.000Z","id":"1491216114906374144","text":"Can’t believe Denver restaurant owners use covid vaccine clinics as a way to market their brand. It’s all so gross. Why not remind people to get a Pap smear too in the same breath of your pasta special? SMH #colorado #marketing"},{"created_at":"2022-02-07T15:32:10.000Z","id":"1490709983180197894","text":"On January 28th, the Biden administration closed the southern land border to all non citizens that have not been fully vaccinated. However the illegal immigrants may continue to cross the Rio Colorado without vaccination and be air lifted out and distributed all throughout the US"}],"meta":{"newest_id":"1492246384283512833","oldest_id":"1490709983180197894","result_count":5}}
+{
+    "data": [
+        {
+            "created_at": "2022-02-11T21:17:17.000Z",
+            "id": "1492246384283512833",
+            "text": "Signs coming into Colorado from Wyo:\n\nStop Hate Crimes, FBI\nGet your Vaccination\nJesus is Alive"
+        },
+        {
+            "created_at": "2022-02-11T17:12:49.000Z",
+            "id": "1492184861364428806",
+            "text": "You know what? @POTUS should just lift the vaccine mandates and states should lift mask mandates. I agree with the Colorado governor. At this point if you’re unvaccinated and get sick it’s your own damn fault."
+        },
+        {
+            "created_at": "2022-02-09T23:53:50.000Z",
+            "id": "1491561004949553158",
+            "text": "VAERS report 1212517:\n44yo Male, Colorado\nMuscle pain and fatigue immediately after Pfizer  vaccination. Died 2 days later.\n\nWhy was this report removed from VAERS after 04-30-2021?"
+        },
+        {
+            "created_at": "2022-02-09T01:03:21.000Z",
+            "id": "1491216114906374144",
+            "text": "Can’t believe Denver restaurant owners use covid vaccine clinics as a way to market their brand. It’s all so gross. Why not remind people to get a Pap smear too in the same breath of your pasta special? SMH #colorado #marketing"
+        },
+        {
+            "created_at": "2022-02-07T15:32:10.000Z",
+            "id": "1490709983180197894",
+            "text": "On January 28th, the Biden administration closed the southern land border to all non citizens that have not been fully vaccinated. However the illegal immigrants may continue to cross the Rio Colorado without vaccination and be air lifted out and distributed all throughout the US"
+        }
+    ],
+    "meta": {
+        "newest_id": "1492246384283512833",
+        "oldest_id": "1490709983180197894",
+        "result_count": 5
+    }
+}

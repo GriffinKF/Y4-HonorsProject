@@ -1,1 +1,24 @@
-{"data":[{"created_at":"2022-02-10T00:05:01.000Z","id":"1491563822792032256","text":"VAERS report 1288833:\n47yo Female, North Carolina\nFound unresponsive at home 12 days after Pfizer vaccination. Declared dead in the home.\n\nWhy was this report removed from VAERS after 08-27-2021?"},{"created_at":"2022-02-09T08:35:49.000Z","id":"1491329980667936772","text":".@JoeNBC .@Morning_Joe I live in a North Carolina County with almost 30% of Covid tests positive, less than 60% vaccination rate and the average age of Covid patients is 36. The school board just lifted the mask mandate."},{"created_at":"2022-02-06T19:44:01.000Z","id":"1490410974192545795","text":"That one time I briefly followed the North Carolina Polyamory FB group and found it full of anti-vaccination and blue lives matter people. I should have known better."}],"meta":{"newest_id":"1491563822792032256","oldest_id":"1490410974192545795","result_count":3}}
+{
+    "data": [
+        {
+            "created_at": "2022-02-10T00:05:01.000Z",
+            "id": "1491563822792032256",
+            "text": "VAERS report 1288833:\n47yo Female, North Carolina\nFound unresponsive at home 12 days after Pfizer vaccination. Declared dead in the home.\n\nWhy was this report removed from VAERS after 08-27-2021?"
+        },
+        {
+            "created_at": "2022-02-09T08:35:49.000Z",
+            "id": "1491329980667936772",
+            "text": ".@JoeNBC .@Morning_Joe I live in a North Carolina County with almost 30% of Covid tests positive, less than 60% vaccination rate and the average age of Covid patients is 36. The school board just lifted the mask mandate."
+        },
+        {
+            "created_at": "2022-02-06T19:44:01.000Z",
+            "id": "1490410974192545795",
+            "text": "That one time I briefly followed the North Carolina Polyamory FB group and found it full of anti-vaccination and blue lives matter people. I should have known better."
+        }
+    ],
+    "meta": {
+        "newest_id": "1491563822792032256",
+        "oldest_id": "1490410974192545795",
+        "result_count": 3
+    }
+}

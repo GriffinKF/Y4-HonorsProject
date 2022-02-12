@@ -1,1 +1,34 @@
-{"data":[{"created_at":"2022-02-09T17:21:01.000Z","id":"1491462151608938504","text":"Good morning to Vermont. But I hope Pope Benedict and those weird people waving nazi flags at a vaccine mandate protest in Canada have a horrible day."},{"created_at":"2022-02-08T18:50:31.000Z","id":"1491122285469892608","text":"As of now, Saskatchewan, Quebec, and other places ending vaccine proof and masking requirements, etc. When will Vermont?"},{"created_at":"2022-02-07T19:31:57.000Z","id":"1490770324316729353","text":"THIS NEEDS A CORRECTION \n\n\"Over 99% of people ages 12 and up in Vermont have received at least one dose of the Covid-19 vaccine,\" - VTDigger\n\nI think this was just a mistake, but nonetheless, it should be corrected. Proponents/skeptics alike can agree that's not true.\n\n#vtpoli"},{"created_at":"2022-02-07T16:44:23.000Z","id":"1490728157686632450","text":"The highest vaccination rates in the US: Vermont leads the way at 80%, Rhode Island comes in a close second at 79%, with Maine, Connecticut &amp; MA rounding out the top 5.\n \nWhile they don't crack the top 10, the W. coast also has high vaccination rates from CA to WA state,"},{"created_at":"2022-02-06T03:26:34.000Z","id":"1490164992355749890","text":"Couldn’t get into a restaurant in Vermont because I didn’t have proof of vaccination…I thought we lived in a free country AKA America….I guess not??"}],"meta":{"newest_id":"1491462151608938504","oldest_id":"1490164992355749890","result_count":5}}
+{
+    "data": [
+        {
+            "created_at": "2022-02-09T17:21:01.000Z",
+            "id": "1491462151608938504",
+            "text": "Good morning to Vermont. But I hope Pope Benedict and those weird people waving nazi flags at a vaccine mandate protest in Canada have a horrible day."
+        },
+        {
+            "created_at": "2022-02-08T18:50:31.000Z",
+            "id": "1491122285469892608",
+            "text": "As of now, Saskatchewan, Quebec, and other places ending vaccine proof and masking requirements, etc. When will Vermont?"
+        },
+        {
+            "created_at": "2022-02-07T19:31:57.000Z",
+            "id": "1490770324316729353",
+            "text": "THIS NEEDS A CORRECTION \n\n\"Over 99% of people ages 12 and up in Vermont have received at least one dose of the Covid-19 vaccine,\" - VTDigger\n\nI think this was just a mistake, but nonetheless, it should be corrected. Proponents/skeptics alike can agree that's not true.\n\n#vtpoli"
+        },
+        {
+            "created_at": "2022-02-07T16:44:23.000Z",
+            "id": "1490728157686632450",
+            "text": "The highest vaccination rates in the US: Vermont leads the way at 80%, Rhode Island comes in a close second at 79%, with Maine, Connecticut &amp; MA rounding out the top 5.\n \nWhile they don't crack the top 10, the W. coast also has high vaccination rates from CA to WA state,"
+        },
+        {
+            "created_at": "2022-02-06T03:26:34.000Z",
+            "id": "1490164992355749890",
+            "text": "Couldn’t get into a restaurant in Vermont because I didn’t have proof of vaccination…I thought we lived in a free country AKA America….I guess not??"
+        }
+    ],
+    "meta": {
+        "newest_id": "1491462151608938504",
+        "oldest_id": "1490164992355749890",
+        "result_count": 5
+    }
+}
