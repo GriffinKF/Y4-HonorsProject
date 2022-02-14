@@ -1,0 +1,1 @@
+curl -X POST "https://api.twitter.com/1.1/tweets/search/fullarchive/Dev.json" -d '{"query": "(vaccination OR vaccine OR vaccinated OR vaxed OR vaxxed) Alabama lang:en -has:links -is:retweet -is:reply -is:quote -has:media","fromDate": "201801010000","toDate": "202112312359","maxResults": 500}' -H "Authorization: Bearer <TOKEN>"
