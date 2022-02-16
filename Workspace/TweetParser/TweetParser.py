@@ -1,8 +1,7 @@
 import json
 
 #Open the JSON File containing the tweet data
-#tweetData = open('../Data/FullArchiveRaw/aaa.json')
-tweetData = open('Test.json')
+tweetData = open('../Data/FullArchiveRaw/Alabama.json')
 
 dataDictionary = json.load(tweetData)
 
