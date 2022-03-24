@@ -11,6 +11,7 @@ from nltk.corpus import stopwords
 
 
 movie_data = load_files(r"TestData")
+#X holds the actual data from the files, y holds the supervised signal label names (pos and neg)
 X, y = movie_data.data, movie_data.target
 
 documents = []
