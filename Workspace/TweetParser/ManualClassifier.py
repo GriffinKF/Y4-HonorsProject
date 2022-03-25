@@ -1,6 +1,7 @@
 import os
+import sys
 
-state = "Alaska"
+state = sys.argv[1]
 
 count = 0
 with open('../Data/FullArchiveCleaned/{}.txt'.format(state), 'r') as inputFile:
