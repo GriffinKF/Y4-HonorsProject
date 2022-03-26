@@ -3,14 +3,14 @@ import sys
 
 state = sys.argv[1]
 
-count = 0
+count = 1
 with open('../Data/FullArchiveCleaned/{}.txt'.format(state), 'r') as inputFile:
-    while count < 100:
+    while count < 101:
         #Reads the first line
         line = inputFile.readline()
         #Grabs only the ID
         ID = line[4:23]
-        print(ID)
+        print(ID, count)
         #Reads the second line
         line = inputFile.readline()
         #Grabs only the tweet (drops the "Text: " from the start)
