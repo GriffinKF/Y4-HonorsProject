@@ -3,7 +3,7 @@ import sys
 
 
 count = 1
-with open('../Data/FullArchiveCleaned/{}.txt'.format(state), 'r') as inputFile:
+with open('../Data/FullArchiveCleaned/{}.txt'.format(sys.argv[1]), 'r') as inputFile:
 
     def manualClassfier(inputClassification, tweetState, tweetID, tweetText):
         if inputClassification == 'p':
