@@ -1,7 +1,8 @@
 import json
+import sys
 
 #Open the JSON File containing the tweet data
-tweetData = open('../Data/FullArchiveRaw/Alabama.json')
+tweetData = open('../Data/FullArchiveRaw/{}.json'.format(sys.argv[1]))
 
 dataDictionary = json.load(tweetData)
 
