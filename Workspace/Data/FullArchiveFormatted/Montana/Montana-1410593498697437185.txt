@@ -1,0 +1,1 @@
+#mtpol Since last night, the state of Montana's Covid website has been mostly unusable. I was able to get the lastest vaccination numbers, but the cases map fails to load with any of my browsers. No problems anywhere else.
