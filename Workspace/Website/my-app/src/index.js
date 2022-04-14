@@ -2,9 +2,9 @@ import React from "react"
 import ReactDOM from "react-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import NavBar from "./components/NavBar"
+import App from "./App"
 
 ReactDOM.render(
-    <NavBar />,
+    <App />,
     document.getElementById("root")
 )
