@@ -1,0 +1,1 @@
+Realized that the CDC data on boosters by state is showing % of fully vaccinated and not % of total population. About 9.6% of Louisiana residents are boosted.

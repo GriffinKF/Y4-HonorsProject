@@ -1,0 +1,1 @@
+Last 24-hour #COVID-19 data from #Colorado:853 new cases1,545 hospitalizations3 deaths787,317 total cases8,813 total deaths10.60% state positivity rate3,971,516 (68.97%) first doses3,589,412 (62.33%) fully vaxed761,818 US deathsStats updated: 2021-11-14#Python

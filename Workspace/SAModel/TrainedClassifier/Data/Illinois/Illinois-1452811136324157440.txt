@@ -1,0 +1,1 @@
+Illinois vaccination verification: 19. Why am I receiving a message on the Identity Verification SSN page indicating that it cannot verify my identity?Experian uses your SSN and the information you provided when you registered to attempt to identify you.
