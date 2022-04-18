@@ -1,0 +1,38 @@
+[
+  {
+    "Title": "Political Leaning",
+    "ID": 1,
+    "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Political Leanings of States",
+    "Image": "PoliticalLeaning.jpg"
+  },
+  {
+    "Title": "Public Health Spending",
+    "ID": 2,
+    "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Public Health Spending of States",
+    "Image": "PublicHealth.jpeg"
+  },    
+  {
+    "Title": "Literacy Rate",
+    "ID": 3,
+    "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Literacy Rates of States",
+    "Image": "LiteracyRate.png"
+  },    
+  {
+    "Title": "Employment Rate",
+    "ID": 4,
+    "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Employment Rate of States",
+    "Image": "EmploymentRate.jpeg"
+  },    
+  {
+    "Title": "Average Age",
+    "ID": 5,
+    "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Average Age of States",
+    "Image": "AverageAge.jpg"
+  },    
+  {
+    "Title": "Average Salary",
+    "ID": 6,
+    "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Average Salary of States",
+    "Image": "AverageSalary.jpg"
+  }
+]
