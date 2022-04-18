@@ -1,0 +1,1 @@
+A person vaccinated in Wisconsin but hospitalized in Minnesota would be counted as unvaccinated. Despite vac failure they would be contributing to higher vaccine efficacy rates in Minnesota (by adding to unvaxd numerator) and Wisconsin (by adding to vaxd denominator.)

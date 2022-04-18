@@ -1,0 +1,1 @@
+IMEX is using @Clear health pass to verify vaccination status for US, I am guessing they are following Illinois biometric laws but some of you startups better get knowledgeable about how you store and use biometric data.
