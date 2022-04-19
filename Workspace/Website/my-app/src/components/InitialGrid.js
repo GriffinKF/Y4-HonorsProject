@@ -1,23 +1,22 @@
 import React from "react";
 import { CardGroup, Container } from "react-bootstrap";
 import GridCard from "./GridCard";
-import BreakdownBlurbs from "../assets/breakdowns/BreakdownBlurbs.json";
+import BreakdownBlurbs from "../assets/jsons/BreakdownBlurbs.json";
 
 function importAll(r) {
-    let images = {};
-    r.keys().forEach((item) => {
-        images[item.replace("./", "")] = r(item);
-    });
-    return images;
+    let images = {}
+    r.keys().forEach((item) => {images[item.replace("./", "")] = r(item)})
+    return images
 }
 const images = importAll(
     require.context("../assets/images", false, /\.(png|jpe?g|svg)$/)
-);
+)
 
 function InitialGrid() {
     const gridCardComponents = BreakdownBlurbs.map((breakdowns) => (
         <GridCard
             key={breakdowns.ID}
+            path={breakdowns.ID}
             breakdownTitle={breakdowns.Title}
             breakdownDesc={breakdowns.Description}
             breakdownImage={images[breakdowns.Image]}

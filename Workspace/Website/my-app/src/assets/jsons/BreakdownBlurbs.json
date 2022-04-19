@@ -1,38 +1,44 @@
 [
   {
     "Title": "Political Leaning",
-    "ID": 1,
+    "ID": "0",
     "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Political Leanings of States",
-    "Image": "PoliticalLeaning.jpg"
+    "Image": "PoliticalLeaning.jpg",
+    "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Political Leaning"
   },
   {
     "Title": "Public Health Spending",
-    "ID": 2,
+    "ID": "1",
     "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Public Health Spending of States",
-    "Image": "PublicHealth.jpeg"
+    "Image": "PublicHealth.jpeg",
+    "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Public Health Spending"
   },    
   {
     "Title": "Literacy Rate",
-    "ID": 3,
+    "ID": "2",
     "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Literacy Rates of States",
-    "Image": "LiteracyRate.png"
+    "Image": "LiteracyRate.png",
+    "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Literacy Rate"
   },    
   {
     "Title": "Employment Rate",
-    "ID": 4,
+    "ID": "3",
     "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Employment Rate of States",
-    "Image": "EmploymentRate.jpeg"
+    "Image": "EmploymentRate.jpeg",
+    "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Employment Rate"
   },    
   {
     "Title": "Average Age",
-    "ID": 5,
+    "ID": "4",
     "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Average Age of States",
-    "Image": "AverageAge.jpg"
+    "Image": "AverageAge.jpg",
+    "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Average Age"
   },    
   {
     "Title": "Average Salary",
-    "ID": 6,
+    "ID": "5",
     "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Average Salary of States",
-    "Image": "AverageSalary.jpg"
+    "Image": "AverageSalary.jpg",
+    "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Average Salary"
   }
 ]
