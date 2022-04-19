@@ -1,0 +1,1 @@
+I wonder about the error bars on our vaccination data. Despite multiple attempts to fix it the state of Maryland thinks my second shot was my first shot and that I’m not fully vaccinated.

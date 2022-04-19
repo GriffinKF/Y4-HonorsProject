@@ -1,0 +1,1 @@
+🚨App Update: We updated vaccine (CVX) data mapping today for Minnesota and New Jersey for pediatric COVID-19 doses. Our team is also aware of an issue where Minnesota records are displaying "No Vaccine Administered" for no vaccine group in particular; a fix for this is pending👍

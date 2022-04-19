@@ -1,0 +1,1 @@
+North Carolina State University recently presented a model of COVID infection characteristics in schools, called #COVSIM.  This model uses R nought of 4 for the delta variant.  In the elementary school setting, where no children are eligible for vaccination, the model estimates
