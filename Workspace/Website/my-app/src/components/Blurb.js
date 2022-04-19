@@ -1,7 +1,6 @@
 import React from "react"
 import { Card, Container } from "react-bootstrap"
 import USAImage from "../assets/images/USA.webp"
-import { Link } from "react-router-dom"
 
 function Blurb() {
     return(
