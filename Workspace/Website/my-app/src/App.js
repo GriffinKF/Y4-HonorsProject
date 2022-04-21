@@ -21,6 +21,7 @@ function App() {
                     <div className="content">
                         <Routes>
                             <Route path="/" element={<MainBody />}/>
+                            <Route path="/Y4-HonorsProject" element={<MainBody />}/>
                             <Route path="/0" element={<ComparisonPage />}/>
                             <Route path="/1" element={<ComparisonPage />}/>
                             <Route path="/2" element={<ComparisonPage />}/>
