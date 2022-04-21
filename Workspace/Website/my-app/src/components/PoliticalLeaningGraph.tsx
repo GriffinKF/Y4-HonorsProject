@@ -20,76 +20,67 @@ ChartJS.register(
   Legend
 );
 
-// export const options = {
-//   responsive: true,
-//   scales: {
-//     y: {
-//       max: 45
-//     }
-//   },
-//   plugins: {
-//     legend: {
-//       position: 'top' as const,
-//     },
-//     title: {
-//       display: true,
-//       // text: 'Chart.js Bar Chart',
-//     },
-//   },
-// };
-
 const stateName = StateData.map((data) => (data.State))
 const ID = StateData.map((data) => (data.ID))
 const sentiment = StateData.map((data) => ((parseFloat(data.Positive)/400)*100).toFixed(2))
-const tSentiment = StateData.map((data) => (data.tPositive))
+const tPSentiment = StateData.map((data) => (data.tPositive))
+const tNSentiment = StateData.map((data) => (data.tNegative))
 // const positivePercent = sentiment.map((data) => parseFloat(data))
 const politicalLeaning = StateData.map((data) => (data.Political))
 const rStateName = []
 const dStateName = []
 const rSentiment = []
 const dSentiment = []
-const rTSentiment = []
-const dTSentiment = []
+const rTPSentiment = []
+const dTPSentiment = []
+const rTNSentiment = []
+const dTNSentiment = []
 
 for(let i = 0; i < stateName.length; i++) {
   if (politicalLeaning[i] == "R") {
     rStateName.push(stateName[i])
-    rSentiment.push(sentiment[i])
-    rTSentiment.push(tSentiment[i])
+    rSentiment.push(parseFloat(sentiment[i]))
+    rTPSentiment.push(parseFloat(tPSentiment[i]))
+    rTNSentiment.push(parseFloat(tNSentiment[i]))
   } else if (politicalLeaning[i] == "D") {
     dStateName.push(stateName[i])
-    dSentiment.push(sentiment[i])
-    dTSentiment.push(tSentiment[i])
+    dSentiment.push(parseFloat(sentiment[i]))
+    dTPSentiment.push(parseFloat(tPSentiment[i]))
+    dTNSentiment.push(parseFloat(tNSentiment[i]))
   }
 }
-
-
 
 export function PoliticalLeaningGraph(props) {
   
     if (props.party == "R") {
     var labels = rStateName
     var sentData = rSentiment
-    var color = 'red'
+    var color = 'darkred'
     var title = '% Positive Sentiment for Rebublican States (Machine Learning)'
     var yMax = 45
   } else if (props.party == "D") {
     var labels = dStateName
     var sentData = dSentiment
-    var color = 'blue'
+    var color = 'darkblue'
     var title = '% Positive Sentiment for Democratic States (Machine Learning)'
     var yMax = 45
   } else if (props.party == "tR") {
     var labels = rStateName
-    var sentData = rTSentiment
-    var color = 'red'
+    var sentData = rTPSentiment
+    var sentData2 = rTNSentiment
+    var color = 'darkred'
+    var color2 = 'red'
     var title = '% Positive Sentiment for Rebublican States (Manual)'
+    var title2 = '% Negative Sentiment for Rebublican States (Manual)'
     var yMax = 75
   } else if (props.party == "tD") {
     var labels = dStateName
-    var sentData = dTSentiment
-    var color = 'blue'
+    var sentData = dTPSentiment
+    var sentData2 = dTNSentiment
+    var color = 'darkblue'
+    var color2= 'blue'
     var title = '% Positive Sentiment for Democratic States (Manual)'
+    var title2 = '% Negative Sentiment for Democratic States (Manual)'
     var yMax = 75
   }
 
@@ -106,12 +97,11 @@ export function PoliticalLeaningGraph(props) {
       },
       title: {
         display: true,
-        // text: 'Chart.js Bar Chart',
       },
     },
   };
 
-  const rData = {
+  const MLData = {
     labels,
     datasets: [
       {
@@ -121,7 +111,29 @@ export function PoliticalLeaningGraph(props) {
       },
     ],
   };
-  return <Bar options={options} data={rData} />;
+  
+  const ManualData = {
+    labels,
+    datasets: [
+      {
+        label: title,
+        data: sentData,
+        backgroundColor: color,
+      },
+      {
+        label: title2,
+        data: sentData2,
+        backgroundColor: color2,
+      },
+    ],
+  };
+
+  if (props.party == "R" || props.party == "D") {
+    var Data = MLData
+  } else {
+    var Data = ManualData
+  }
+  return <Bar options={options} data={Data} />;
 }
 
 export default PoliticalLeaningGraph

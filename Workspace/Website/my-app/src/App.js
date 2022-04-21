@@ -8,12 +8,14 @@ import NavBar from "./components/NavBar"
 import MainBody from "./components/MainBody"
 import Footer from "./components/Footer"
 import ComparisonPage from "./components/ComparisonPage"
+import ScrollToTop from "./components/ScrollToTop"
 
 
 
 function App() {
     return(
         <Router>
+            <ScrollToTop />
             <div className="App">
                 <NavBar />
                     <div className="content">
