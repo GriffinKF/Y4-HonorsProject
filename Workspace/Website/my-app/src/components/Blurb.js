@@ -1,7 +1,6 @@
 import React from "react"
 import { Card, Container } from "react-bootstrap"
 import USAImage from "../assets/images/USA.webp"
-// import USAImageSmall from "../assets/images/USASmall.png"
 
 function Blurb() {
     return(
@@ -9,7 +8,7 @@ function Blurb() {
             <Container>
                 <Card style={{backgroundColor: 'grey'}}>
                 <Card.Body style={{backgroundColor: 'grey'}}>
-                    <Card.Title>Introduction TEST TEST TEST</Card.Title>
+                    <Card.Title>Introduction</Card.Title>
                     <Card.Text>
                         <p>
                             For my Honors Project, I decided to take a data-driven approach to study vaccine hesitancy in the United States. While that sounds cool, what does it actually mean?
