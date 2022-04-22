@@ -1,7 +1,7 @@
 import React from "react"
 import Blurb from "./Blurb"
 import InitialGrid from "./InitialGrid"
-import States from "./States"
+import StateSelector from "./StateSelector"
 
 function MainBody() {
     return(
@@ -10,7 +10,7 @@ function MainBody() {
             <br></br>
             <InitialGrid />
             <br></br>
-            <States />
+            <StateSelector />
             <br></br>
         </body> 
     )
