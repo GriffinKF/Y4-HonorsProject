@@ -65,7 +65,7 @@ export default function AverageAgeGraph(props) {
         backgroundColor: 'green',
       },
       {
-        label: '% Negative Sentiment, ordered by Average Age on the left, lowest on the right. (As classified by Hand)',
+        label: '% Negative Sentiment, ordered by highest Average Age on the left, lowest on the right. (As classified by Hand)',
         data: tNSentiment,
         borderColor: 'red',
         backgroundColor: 'red',
