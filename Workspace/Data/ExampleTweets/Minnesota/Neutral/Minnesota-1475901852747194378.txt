@@ -1,0 +1,1 @@
+Currently in Minnesota breakthrough rate is 3.914% and reinfection rate is 1.34%.  Data doesn’t list if a person had Covid, then vaccinated, and was reinfected.
