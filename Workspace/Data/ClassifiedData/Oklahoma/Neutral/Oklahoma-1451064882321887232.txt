@@ -1,0 +1,1 @@
+Oklahoma no longer gives their usual vaccination statistics in their weekly reports.Oklahoma,VE(case),weekly,0626-1009All,83,87,88,91,90,92,88,89,94,91,89,84,85,76,78J+J,67,84,81,77,66,70,57,54Mod,92,93,90,86,86,79,81Pfi,84,89,90,88,84,85,75,77

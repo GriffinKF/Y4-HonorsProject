@@ -1,0 +1,1 @@
+Ah ha.  New Hampshire's vaccine registration site returns "There was an error, please contact your administrator" if you request a password that doesn't follow their 'your password must blah blah' policy.Which of course none of the in-browser secure password generators will.

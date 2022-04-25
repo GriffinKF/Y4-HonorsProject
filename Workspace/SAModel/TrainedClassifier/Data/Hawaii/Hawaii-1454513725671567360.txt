@@ -1,0 +1,1 @@
+The state of Hawaii website for confirming vax is automatically parsing vaccine records, looking for first date and last date. The problem? If you've had a booster, it can't tell the difference between two and three vaccines and exits, saying too long has passed between doses.
