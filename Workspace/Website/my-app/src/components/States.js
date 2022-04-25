@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap"
 import { Card, CardGroup } from "react-bootstrap"
 import StateData from "../assets/jsons/StateSentiment.json";
 import StatePieChart from "./StatePieChart.tsx"
+import TweetDisplayer from "./TweetDisplayer"
 
 function States() {
     const ID = parseInt(window.location.href.slice(window.location.href.length - 3)) - parseInt(100)
@@ -56,6 +57,8 @@ function States() {
                     </CardGroup>
                 </Card>
             </Container>
+            <br></br>
+            <TweetDisplayer stateID={ID}/>
             <br></br>
         </body>
     )

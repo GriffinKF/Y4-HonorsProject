@@ -1,0 +1,16 @@
+{
+    "Alabama": {
+      "Title": "Political Leaning",
+      "ID": "0",
+      "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Political Leanings of States",
+      "Image": "PoliticalLeaning.jpg",
+      "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Political Leaning"
+    },
+    "Alaska": {
+        "Title": "Political Leaning",
+        "ID": "0",
+        "Description": "A Comparison of how Tweet Sentiment regarding vaccines compares with the Political Leanings of States",
+        "Image": "PoliticalLeaning.jpg",
+        "BlurbTitle": "A Comparison of Vaccine Sentiment vs. Political Leaning"
+    }
+}
