@@ -9,18 +9,20 @@ export default function StatePieChart(props) {
     const stateData = props.stateData
 
     const MLData = {
-        labels: ['Positive Sentiment', 'Neutral Sentiment'],
+        labels: ['Positive Sentiment', 'Neutral Sentiment', 'Negative Sentiment'],
         datasets: [
             {
             label: 'Sentiment Data (Model Classified)',
-            data: [stateData.Positive, stateData.Neutral],
+            data: [stateData.Positive, stateData.Neutral, stateData.Negative],
             backgroundColor: [
                 'rgba(75, 255, 192, 0.8)',
-                'rgba(54, 162, 255, 0.8)'
+                'rgba(54, 162, 255, 0.8)',
+                'rgba(255, 99, 132, 0.8)'
             ],
             borderColor: [
                 'rgba(75, 255, 192, 1)',
-                'rgba(54, 162, 255, 1)'
+                'rgba(54, 162, 255, 1)',
+                'rgba(255, 99, 132, 1)'
             ],
             borderWidth: 1
             }
