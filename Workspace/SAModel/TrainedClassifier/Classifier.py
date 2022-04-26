@@ -60,16 +60,16 @@ for sen in range(0, len(X)):
     documents.append(document)
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-tfidfconverter = TfidfVectorizer(max_features=1500, min_df=5, max_df=0.7, stop_words=stopwords.words('english'))
+tfidfconverter = TfidfVectorizer(max_features=1447, min_df=5, max_df=0.7, stop_words=stopwords.words('english'))
 X = tfidfconverter.fit_transform(documents).toarray()
 
-with open('TweetClassifierModel2.pickle', 'rb') as training_model:
+with open('TweetClassifierModelEqualized.pickle', 'rb') as training_model:
     model = pickle.load(training_model)
 
 y_pred = model.predict(X)
 
 # with np.printoptions(threshold=np.inf):
-#      print(y_pred)
+#     print(y_pred)
 
 for x in range(0, len(unproccessedData)):
     tweet = unproccessedData[x]

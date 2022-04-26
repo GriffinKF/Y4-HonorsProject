@@ -10,7 +10,7 @@ import pickle
 from nltk.corpus import stopwords
 
 
-tweet_data = load_files(r"TrainingSets", encoding='utf-8')
+tweet_data = load_files(r"TrainingSetsEqualized", encoding='utf-8')
 #X holds the actual data from the files, y holds the supervised signal label names (pos and neg)
 X, y = tweet_data.data, tweet_data.target
 
@@ -59,24 +59,24 @@ X = tfidfconverter.fit_transform(X).toarray()
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
-# classifier = RandomForestClassifier(n_estimators=1000, random_state=0)
-# classifier.fit(X_train, y_train)
+classifier = RandomForestClassifier(n_estimators=1000, random_state=0)
+classifier.fit(X_train, y_train)
 
-# y_pred = classifier.predict(X_test)
+y_pred = classifier.predict(X_test)
 
-# from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-# print(confusion_matrix(y_test,y_pred))
-# print(classification_report(y_test,y_pred))
-# print(accuracy_score(y_test, y_pred))
+print(confusion_matrix(y_test,y_pred))
+print(classification_report(y_test,y_pred))
+print(accuracy_score(y_test, y_pred))
 
-with open('TweetClassifierModel.pickle', 'rb') as training_model:
-    model = pickle.load(training_model)
+# with open('TweetClassifierModel.pickle', 'rb') as training_model:
+#     model = pickle.load(training_model)
 
-    y_pred2 = model.predict(X_test)
+#     y_pred2 = model.predict(X_test)
 
-    from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+#     from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
     
-    print(confusion_matrix(y_test, y_pred2))
-    print(classification_report(y_test, y_pred2))
-    print(accuracy_score(y_test, y_pred2)) 
+#     print(confusion_matrix(y_test, y_pred2))
+#     print(classification_report(y_test, y_pred2))
+#     print(accuracy_score(y_test, y_pred2)) 

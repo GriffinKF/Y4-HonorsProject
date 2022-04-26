@@ -10,7 +10,7 @@ import pickle
 from nltk.corpus import stopwords
 
 
-tweet_data = load_files(r"TrainingSets", encoding='utf-8')
+tweet_data = load_files(r"TrainingSetsEqualized", encoding='utf-8')
 #X holds the actual data from the files, y holds the supervised signal label names (pos and neg)
 X, y = tweet_data.data, tweet_data.target
 
@@ -56,7 +56,7 @@ tfidfconverter = TfidfTransformer()
 X = tfidfconverter.fit_transform(X).toarray()
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.01, random_state=0)
 
 classifier = RandomForestClassifier(n_estimators=1000, random_state=0)
 classifier.fit(X_train, y_train) 
