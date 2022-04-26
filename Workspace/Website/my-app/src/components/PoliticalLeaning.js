@@ -31,7 +31,10 @@ function PoliticalLeaning(props) {
                     <Card.Text>
                         <div style={{backgroundColor: 'grey'}}>
                             <p>
-                                Average Positive Sentiment % for Rebulican States: 15.1%
+                                Average Positive Sentiment % for Rebulican States: 7.2%
+                            </p>
+                            <p>
+                                Average Negative Sentiment % for Rebulican States: 39.3%
                             </p>
                         </div>
                     </Card.Text>
@@ -41,10 +44,10 @@ function PoliticalLeaning(props) {
                     <Card.Text>
                         <div style={{backgroundColor: 'grey'}}>
                             <p>
-                                Average Positive Sentiment % for Democractic States: 16.8%
+                                Average Positive Sentiment % for Democract States: 7.8%
                             </p>
                             <p>
-                                Average Positive Sentiment % for Democractic States (Excluding Major Outliers): 13.5%
+                                Average Negative Sentiment % for Democract States: 40.1%
                             </p>
                         </div>
                     </Card.Text>
