@@ -1,0 +1,1 @@
+Vaccine: 5,331,994,606; US: 370,212,027; Missouri: 5,946,002Case: 217,632,545; US: 39,343,501Fatal: 4,518,337Fully Vaccinated: 48.2%; Missouri: 41.83%Missouri 1 Dose: 52.68%US Dose 100 People: 111.51; Missouri Dose per 100 People: 96.88
