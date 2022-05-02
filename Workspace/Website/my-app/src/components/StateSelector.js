@@ -100,8 +100,24 @@ function StateSelector() {
                                 options={options}
                                 onChange={handleChange}
                             />
-                            <div style={{height: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center', gridTemplateRows: 'auto 1fr'}}>
-                                {options[selectedValue].label ? (<Link to={selectedState}><Button variant="primary">{buttonLabel}</Button></Link>) : (<div />)}
+                            <div style={{
+                                height: '80%', 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                justifyContent: 'center', 
+                                gridTemplateRows: 'auto 1fr'
+                                }}>
+                                {
+                                options[selectedValue].label 
+                                    ? 
+                                        (
+                                            <Link to={selectedState}>
+                                                <Button variant="primary">{buttonLabel}</Button>
+                                            </Link>
+                                        ) 
+                                    : 
+                                        (<div />)
+                                }
                             </div>
                         </Card.Body>
                     </Card>

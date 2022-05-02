@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "created_at": "2022-02-11T13:03:45.000Z",
+            "id": "1492122183757225994",
+            "text": "Wear your mask and get your vaccine! I'm going to Delaware for ice cream"
+        },
+        {
+            "created_at": "2022-02-07T21:38:01.000Z",
+            "id": "1490802050120175618",
+            "text": "Tf they doin in Delaware?? They’re looking to eventually remove all vaccine requirements for schools. Yikes."
+        },
+        {
+            "created_at": "2022-02-07T00:39:32.000Z",
+            "id": "1490485345527369728",
+            "text": "There are only 7 States &amp; DC requiring the wearing of masks indoors, regardless of vaccination status: California, Delaware, Hawaii, Illinois, Nevada, New Mexico, New York, Oregon and Washington state."
+        },
+        {
+            "created_at": "2022-02-06T00:32:49.000Z",
+            "id": "1490121263779508228",
+            "text": "King @JayInslee is battling it out to see if he can be the last state to drop his mask mandate. States with mask mandates, regardless of vaccination status:\nCalifornia | Delaware | Hawaii | Illinois | Nevada | New Mexico | New York | Oregon | Rhode Island | Washington"
+        }
+    ],
+    "meta": {
+        "newest_id": "1492122183757225994",
+        "oldest_id": "1490121263779508228",
+        "result_count": 4
+    }
+}
